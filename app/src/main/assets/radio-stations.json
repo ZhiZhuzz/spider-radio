@@ -1,0 +1,137 @@
+[
+  {
+    "id": "love",
+    "name": "上海 Love Radio 103.7",
+    "group": "音乐",
+    "tags": "都市金曲 · 陪伴",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/273/",
+    "urls": ["https://lhttp.qtfm.cn/live/273/64k.mp3"]
+  },
+  {
+    "id": "classic",
+    "name": "上海经典947",
+    "group": "音乐",
+    "tags": "古典 · 爵士 · 轻音乐",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/267/",
+    "urls": ["https://lhttp.qtfm.cn/live/267/64k.mp3"]
+  },
+  {
+    "id": "beijing-music",
+    "name": "北京音乐广播",
+    "group": "音乐",
+    "tags": "流行 · 经典",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/332/",
+    "urls": ["https://lhttp.qtfm.cn/live/332/64k.mp3"]
+  },
+  {
+    "id": "donggan",
+    "name": "上海动感101",
+    "group": "音乐",
+    "tags": "流行新歌 · 活力",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/274/",
+    "urls": ["https://lhttp.qtfm.cn/live/274/64k.mp3"]
+  },
+  {
+    "id": "guangdong-music",
+    "name": "广东音乐之声",
+    "group": "音乐",
+    "tags": "音乐 · 都市生活",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/1260/",
+    "urls": ["https://lhttp.qtfm.cn/live/1260/64k.mp3"]
+  },
+  {
+    "id": "wuhan",
+    "name": "武汉经典音乐广播",
+    "group": "音乐",
+    "tags": "经典歌曲 · 怀旧",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/1297/",
+    "urls": ["https://lhttp.qtfm.cn/live/1297/64k.mp3"]
+  },
+  {
+    "id": "cnr1",
+    "name": "中国之声",
+    "group": "资讯",
+    "tags": "新闻 · 时事",
+    "provider": "央广",
+    "homepage": "https://www.radio.cn/",
+    "urls": ["https://ngcdn001.cnr.cn/live/zgzs/index.m3u8"]
+  },
+  {
+    "id": "cnr2",
+    "name": "经济之声",
+    "group": "资讯",
+    "tags": "财经 · 产业 · 消费",
+    "provider": "央广",
+    "homepage": "https://www.radio.cn/",
+    "urls": ["https://ngcdn002.cnr.cn/live/jjzs/index.m3u8"]
+  },
+  {
+    "id": "beijing-arts",
+    "name": "北京文艺广播",
+    "group": "陪伴",
+    "tags": "影视 · 文化 · 娱乐",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/333/",
+    "urls": ["https://lhttp.qtfm.cn/live/333/64k.mp3"]
+  },
+  {
+    "id": "story",
+    "name": "江苏故事广播",
+    "group": "陪伴",
+    "tags": "小说 · 评书 · 故事",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/20012/",
+    "urls": ["https://lhttp.qtfm.cn/live/20012/64k.mp3"]
+  },
+  {
+    "id": "opera",
+    "name": "上海戏曲广播",
+    "group": "陪伴",
+    "tags": "戏曲 · 曲艺 · 部分沪语",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/269/",
+    "urls": ["https://lhttp.qtfm.cn/live/269/64k.mp3"]
+  },
+  {
+    "id": "sports",
+    "name": "大连体育广播",
+    "group": "资讯",
+    "tags": "体育 · 赛事话题 · 生活",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/1085/",
+    "urls": ["https://lhttp.qtfm.cn/live/1085/64k.mp3"]
+  },
+  {
+    "id": "traffic",
+    "name": "上海交通广播",
+    "group": "生活",
+    "tags": "出行 · 城市服务",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/266/",
+    "urls": ["https://lhttp.qtfm.cn/live/266/64k.mp3"]
+  },
+  {
+    "id": "travel",
+    "name": "海南旅游广播·国际旅游岛之声",
+    "group": "生活",
+    "tags": "文旅 · 海南生活",
+    "provider": "蜻蜓FM",
+    "homepage": "https://m.qtfm.cn/channels/1862/",
+    "urls": ["https://lhttp.qtfm.cn/live/1862/64k.mp3"]
+  },
+  {
+    "id": "cgtn",
+    "name": "CGTN Radio",
+    "group": "资讯",
+    "tags": "英语 · 新闻 · 文化",
+    "provider": "CGTN",
+    "homepage": "https://radio.cgtn.com/",
+    "urls": ["https://sk.cri.cn/am846.m3u8"]
+  }
+]

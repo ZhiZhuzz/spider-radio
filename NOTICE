@@ -1,0 +1,25 @@
+Spider Radio / 蜘蛛电台
+Copyright (C) 2026 ZhiZhuzz
+
+Except for separately licensed third-party materials, the project code and
+maintainer-provided materials are offered under GPL-3.0-only. See LICENSE.
+
+AI collaboration: code and design were produced with substantial GPT
+assistance. The maintainer supplied requirements, product decisions and
+iteration feedback. This project does not claim unaided software authorship.
+On 2026-11-14 the maintainer confirmed that the included four background
+images and the built-in demo music were generated using GPT. The repository
+also contains procedural audio generation scripts.
+
+The bundled font is Noto Sans CJK SC Regular, with embedded attribution:
+Copyright 2014-2021 Adobe (http://www.adobe.com/).
+It remains under SIL Open Font License 1.1, NOT GPL. See FONT-LICENSE.txt
+and app/src/main/assets/FONT-LICENSE.txt. The bundled font appears to be a
+subset; its original acquisition/subsetting process is not documented.
+
+Radio programs, streams, station names, provider names and trademarks belong
+to their respective owners. Listing a source URL does not grant rights to
+the streamed content and does not imply affiliation or endorsement.
+
+Test/build dependencies are not vendored and retain their own licenses.
+See THIRD_PARTY_NOTICES.md.

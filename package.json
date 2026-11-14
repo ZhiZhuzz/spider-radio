@@ -1,0 +1,13 @@
+{
+  "name": "spider-radio-android-verification",
+  "version": "0.8.3",
+  "private": true,
+  "scripts": {
+    "test": "bash tests/run-host-regressions.sh"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "playwright": "1.62.1"
+  },
+  "license": "GPL-3.0-only"
+}

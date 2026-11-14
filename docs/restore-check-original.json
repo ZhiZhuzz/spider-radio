@@ -1,0 +1,14 @@
+{
+  "zip_crc": "pass",
+  "signing_secrets_excluded": true,
+  "source_tree_sha256": "0388c7daabcb02a086c1962d172d0274e4bd4cfdee815670770f1155f9bc1053",
+  "restored_source_build": "pass",
+  "apk_application_entries_equal": 35,
+  "apk_application_differences": [],
+  "signature_only_entries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/SPIDER.RSA",
+    "META-INF/SPIDER.SF"
+  ],
+  "note": "Unsigned restore APK compared with signed deliverable; signing metadata and ZIP/signing blocks intentionally excluded."
+}

@@ -1,0 +1,33 @@
+# Generated output and dependencies
+build/
+node_modules/
+previews/
+playwright-report/
+test-results/
+__pycache__/
+*.pyc
+
+# Private signing material and local configuration
+signing/
+.private/
+.env
+.env.*
+!.env.example
+local.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.p7b
+*.mobileprovision
+
+# Packages are built locally or in CI, not stored as source
+*.apk
+*.aab
+*.hap
+*.app
+*.zip
+.DS_Store
+Thumbs.db

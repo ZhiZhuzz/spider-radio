@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,viewport-fit=cover"
+  /><title>蜘蛛电台</title
+  ><link rel="stylesheet" href="app.css" />
+  <div class="worlds">
+    <div class="world" style="background-image: url(city-v2.png)">
+      <canvas></canvas>
+    </div>
+    <div class="world" style="background-image: url(snow-v2.png)">
+      <canvas></canvas>
+    </div>
+    <div class="world" style="background-image: url(train-v2.png)">
+      <canvas></canvas>
+    </div>
+    <div class="world" style="background-image: url(rain-v2.png)">
+      <canvas></canvas>
+    </div>
+  </div>
+  <div class="scrim"></div>
+  <main class="shell">
+    <header class="brand">
+      <div class="logo">蜘蛛电台</div>
+      <button data-sheet="channels">
+        <span id="channelLabel">云端夜雨</span
+        ><svg viewBox="0 0 24 24"><path d="m7 10 5 5 5-5" /></svg>
+      </button>
+    </header>
+    <section class="hero">
+      <h1 id="title">云端夜雨</h1>
+      <div id="english">RAIN ABOVE THE CITY</div>
+      <p class="quote" id="quote">城市还醒着，你可以慢一点。</p>
+    </section>
+    <div class="spacer"></div>
+    <section class="player">
+      <div class="player-source-row">
+        <button class="source-picker" id="sourcePicker" onclick="show('radio')">
+          <span id="sourceLabel">本地音乐 · 切换来源</span
+          ><svg viewBox="0 0 24 24"><path d="m8 5 7 7-7 7" /></svg></button
+        ><button id="homeMode" type="button"></button>
+      </div>
+      <div class="now">
+        <div class="track">
+          <div id="song">蓝色时差</div>
+          <div class="subtitle">原创试听 · 蓝色时差</div>
+        </div>
+        <button id="fav" aria-label="收藏">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 20S3 14 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6-9 12-9 12Z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="progress">
+        <input
+          id="seek"
+          aria-label="播放进度"
+          type="range"
+          min="0"
+          max="100"
+          value="0"
+        />
+        <div class="times">
+          <span id="elapsed">00:00</span><span id="duration">00:00</span>
+        </div>
+      </div>
+      <div class="error-inline" id="liveError"></div>
+      <div class="transport">
+        <button id="prev" aria-label="上一首">
+          <svg viewBox="0 0 24 24">
+            <path d="M6 6v12M18 6l-9 6 9 6Z" />
+          </svg></button
+        ><button class="play" id="play" aria-label="播放或暂停">
+          <svg viewBox="0 0 24 24">
+            <path d="M9 5L20 12 9 19Z" fill="currentColor" stroke="none" />
+          </svg></button
+        ><button id="next" aria-label="下一首">
+          <svg viewBox="0 0 24 24"><path d="M18 6v12M6 6l9 6-9 6Z" /></svg>
+        </button>
+      </div>
+      <nav class="tools">
+        <button data-sheet="library">
+          <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10" /></svg
+          >选台 / 音乐</button
+        ><button data-sheet="mixer">
+          <svg viewBox="0 0 24 24">
+            <path d="M6 3v18M12 3v18M18 3v18M3 8h6M9 16h6M15 10h6" /></svg
+          >调音台</button
+        ><button id="immersive" aria-label="沉浸模式">
+          <svg viewBox="0 0 24 24">
+            <path d="M8 4H4v4M16 4h4v4M4 16v4h4M20 16v4h-4" />
+          </svg></button
+        ><button data-sheet="settings" aria-label="更多设置">•••</button>
+      </nav>
+    </section>
+  </main>
+  <button
+    id="exitImmersive"
+    style="
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: none;
+    "
+    onclick="immerse()"
+  >
+    轻点返回播放器
+  </button>
+  <div id="toast"></div>
+  <div class="sheet" id="sheet"><div class="panel" id="panel"></div></div>
+  <div hidden><button id="timer">定时</button><span id="status"></span></div>
+  <script src="radio-data.js"></script>
+  <script src="app-core.js"></script>
+  <script src="weather.js"></script>
+  <script src="radio.js"></script>
+  <script src="settings.js"></script>
+  <script src="library.js"></script>
+  <script src="render-radio.js"></script>
+  <script src="sheets.js"></script>
+  <script src="player-ui.js"></script>
+  <script src="bootstrap.js"></script>
+</html>

@@ -1,0 +1,12 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.java text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.png binary
+*.ogg binary
+*.wav binary
+*.otf binary
